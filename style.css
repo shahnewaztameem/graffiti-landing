@@ -16,7 +16,7 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
-.card{
+.card {
     background: #000;
     border: 5px solid #ff4d3b;
 }
@@ -55,8 +55,9 @@ a.navbar-brand {
     content: " ";
     margin-top: 15px;
 }
+
 #footer {
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/footer_bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/footer_bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,4 +72,76 @@ a.navbar-brand {
 .copy p {
     margin-bottom: 0;
     padding-bottom: 1rem;
+}
+
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .some-text h1 {
+        font-size: 7rem;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .some-text h1 {
+        font-size: 6rem;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .some-text h1 {
+        font-size: 5rem;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .some-text h1 {
+        font-size: 4rem;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .some-text h1 {
+        font-size: 3rem;
+    }
+
+    .some-text p {
+        font-size: 1rem;
+    }
+
 }
