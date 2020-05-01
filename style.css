@@ -47,6 +47,10 @@ a.navbar-brand {
     font-size: 1.7rem
 }
 
+.card img {
+    height: 226.6px;
+}
+
 .card-body h5.card-title:after {
     display: block;
     height: 5px;
