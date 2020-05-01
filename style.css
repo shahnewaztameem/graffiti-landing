@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+}
+
+.card{
+    background: #000;
+    border: 5px solid #ff4d3b;
+}
+
+#header {
+    background: url(images/bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.some-text {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.some-text h1 {
+    font-size: 8rem;
+}
+
+.some-text p {
+    font-size: 1.5rem;
+}
+
+a.navbar-brand {
+    font-size: 1.7rem
+}
+
+.card-body h5.card-title:after {
+    display: block;
+    height: 5px;
+    background-color: #ff4d3b;
+    width: 100px;
+    content: " ";
+    margin-top: 15px;
+}
+#footer {
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/footer_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.some-text h3 {
+    color: #FD5140;
+    margin-bottom: 2rem;
+}
+
+.copy p {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
